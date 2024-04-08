@@ -554,12 +554,36 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
 
+.-mt-32 {
+  margin-top: -8rem;
+}
+
 .inline-block {
   display: inline-block;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
@@ -590,6 +614,10 @@ video {
   cursor: pointer;
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -602,8 +630,8 @@ video {
   place-items: center;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-2 {
@@ -616,6 +644,15 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-x-16 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .rounded-lg {
@@ -654,6 +691,10 @@ video {
   padding: 1rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -686,7 +727,11 @@ video {
   color: transparent;
 }
 
-.winner {
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.winLossCount {
   grid-column: span 2 / span 2;
   text-align: center;
   font-family: "Patrick Hand", cursive;
@@ -737,6 +782,23 @@ video {
   --tw-gradient-to: #5755FE var(--tw-gradient-to-position);
 }
 
+.credit {
+  display: inline-block;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: .09rem;
+  color: transparent;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #FF71CD var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 113 205 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #5755FE var(--tw-gradient-to-position);
+}
+
 .restart__btn {
   margin-left: auto;
   text-align: center;
@@ -746,4 +808,10 @@ video {
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(87 85 254 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:-mt-48 {
+    margin-top: -12rem;
+  }
 }

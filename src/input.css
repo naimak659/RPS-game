@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.winner {
+.winLossCount {
   @apply col-span-2 text-center text-2xl font-semibold font-PatrickHand;
 }
 .gradiant {
@@ -13,6 +13,9 @@
 }
 .element__name{
     @apply text-lg font-medium font-PatrickHand gradiant inline-block text-transparent bg-clip-text
+}
+.credit{
+    @apply text-lg font-bold font-PatrickHand tracking-[.09rem] gradiant inline-block text-transparent bg-clip-text
 }
 .restart__btn{
     @apply ml-auto text-xl font-semibold font-PatrickHand text-center text-cs-Blue

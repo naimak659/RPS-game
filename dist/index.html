@@ -13,14 +13,33 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <main class="bg-cs-lightBlue w-screen h-screen grid place-items-center">
+    <main
+      class="bg-cs-lightBlue relative w-screen h-screen grid grid-cols-1 place-items-center duration-300"
+    >
+      <!-- Credit S -->
+      <div class="gradiant rounded-xl p-1 absolute top-5 left-4">
+        <div
+          id="user-input"
+          class="bg-white p-2 rounded-lg grid place-items-center cursor-pointer"
+        >
+        <a
+        class="credit"
+        href="https://github.com/naimak659"
+        target="_blank"
+        >Naim AK</a
+      >
+        </div>
+      </div>
+      
+      <!-- Credit E -->
       <!-- ======= winner card S======= -->
       <div
         id="card"
-        class="bg-cs-white px-4 py-6 rounded-lg grid grid-cols-2 gap-10"
+        class="bg-cs-white px-4 py-6 rounded-lg hidden grid-cols-2 gap-y-6 gap-x-16"
       >
-        <div class="winner">
-          <p class="">Winner is:</p>
+        <div class="winLossCount flex justify-between">
+          <p class="winner">win: 0</p>
+          <p class="loss">loss: 0</p>
         </div>
         <div id="user" class="grid place-items-center gap-3">
           <h4
@@ -29,7 +48,12 @@
             Your
           </h4>
           <picture>
-            <img id="user-img" class="aspect-square w-20" src="" alt="" />
+            <img
+              id="user-img"
+              class="aspect-square w-20"
+              src="./images/paper.png"
+              alt=""
+            />
           </picture>
           <p class="element__name userResult_name">Paper</p>
         </div>
@@ -40,12 +64,17 @@
             Opponent
           </h4>
           <picture>
-            <img id="computer-img" class="aspect-square w-20" src="" alt="" />
+            <img
+              id="computer-img"
+              class="aspect-square w-20"
+              src="./images/paper.png"
+              alt=""
+            />
           </picture>
           <p class="element__name computerResult_name">paper</p>
         </div>
         <div class="col-span-2">
-          <h3 class="restart__btn">Restart</h3>
+          <button class="restart__btn">Restart</button>
         </div>
       </div>
       <!-- ======= winner card E======= -->
@@ -54,7 +83,7 @@
 
       <div
         id="user__selector"
-        class="bg-cs-white px-4 py-7 grid grid-cols-3 gap-4 rounded-lg"
+        class="bg-cs-white px-4 py-7 grid grid-cols-3 gap-4 rounded-lg md:-mt-48 -mt-32"
       >
         <h3 class="selcet__title">Select:</h3>
         <div class="gradiant rounded-xl p-1">
@@ -65,7 +94,7 @@
             <picture>
               <img
                 class="aspect-square w-20"
-                src="/images/paper.png"
+                src="./images/paper.png"
                 alt="paper.png"
                 key="Paper"
               />
@@ -81,7 +110,7 @@
             <picture>
               <img
                 class="aspect-square w-20"
-                src="/images/rock.png"
+                src="./images/rock.png"
                 alt="rock.png"
                 key="Rock"
               />
@@ -97,7 +126,7 @@
             <picture>
               <img
                 class="aspect-square w-20"
-                src="/images/scissor.png"
+                src="./images/scissor.png"
                 alt="scissor.png"
                 key="Scissor"
               />
