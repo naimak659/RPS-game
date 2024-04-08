@@ -1,16 +1,16 @@
 let elementImages = [
-  { img: "./images/scissor.png", key: "Scissor" },
-  { img: "./images/paper.png", key: "Paper" },
-  { img: "./images/paper.png", key: "Paper" },
-  { img: "./images/rock.png", key: "Rock" },
-  { img: "./images/scissor.png", key: "Scissor" },
-  { img: "./images/rock.png", key: "Rock" },
-  { img: "./images/scissor.png", key: "Scissor" },
-  { img: "./images/paper.png", key: "Paper" },
-  { img: "./images/paper.png", key: "Paper" },
-  { img: "./images/rock.png", key: "Rock" },
-  { img: "./images/scissor.png", key: "Scissor" },
-  { img: "./images/rock.png", key: "Rock" },
+  { img: "images/scissor.png", key: "Scissor" },
+  { img: "images/paper.png", key: "Paper" },
+  { img: "images/paper.png", key: "Paper" },
+  { img: "images/rock.png", key: "Rock" },
+  { img: "images/scissor.png", key: "Scissor" },
+  { img: "images/rock.png", key: "Rock" },
+  { img: "images/scissor.png", key: "Scissor" },
+  { img: "images/paper.png", key: "Paper" },
+  { img: "images/paper.png", key: "Paper" },
+  { img: "images/rock.png", key: "Rock" },
+  { img: "images/scissor.png", key: "Scissor" },
+  { img: "images/rock.png", key: "Rock" },
 ];
 
 const winnerCard = document.getElementById("card");
