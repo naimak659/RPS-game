@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <main class="bg-cs-lightBlue w-screen h-screen grid place-items-center">
+      <!-- ======= winner card S======= -->
+      <div
+        id="card"
+        class="bg-cs-white px-4 py-6 rounded-lg grid grid-cols-2 gap-10"
+      >
+        <div class="winner">
+          <p class="">Winner is:</p>
+        </div>
+        <div id="user" class="grid place-items-center gap-3">
+          <h4
+            class="text-2xl font-semibold font-PatrickHand gradiant inline-block text-transparent bg-clip-text"
+          >
+            Your
+          </h4>
+          <picture>
+            <img id="user-img" class="aspect-square w-20" src="" alt="" />
+          </picture>
+          <p class="element__name userResult_name">Paper</p>
+        </div>
+        <div id="computer" class="grid place-items-center gap-3">
+          <h4
+            class="text-2xl font-semibold font-PatrickHand gradiant inline-block text-transparent bg-clip-text"
+          >
+            Opponent
+          </h4>
+          <picture>
+            <img id="computer-img" class="aspect-square w-20" src="" alt="" />
+          </picture>
+          <p class="element__name computerResult_name">paper</p>
+        </div>
+        <div class="col-span-2">
+          <h3 class="restart__btn">Restart</h3>
+        </div>
+      </div>
+      <!-- ======= winner card E======= -->
+
+      <!-- ======= user selector S======= -->
+
+      <div
+        id="user__selector"
+        class="bg-cs-white px-4 py-7 grid grid-cols-3 gap-4 rounded-lg"
+      >
+        <h3 class="selcet__title">Select:</h3>
+        <div class="gradiant rounded-xl p-1">
+          <div
+            id="user-input"
+            class="bg-white p-4 rounded-lg grid place-items-center gap-2 cursor-pointer"
+          >
+            <picture>
+              <img
+                class="aspect-square w-20"
+                src="/images/paper.png"
+                alt="paper.png"
+                key="Paper"
+              />
+            </picture>
+            <p class="element__name">Paper</p>
+          </div>
+        </div>
+        <div class="gradiant rounded-xl p-1">
+          <div
+            id="user-input"
+            class="bg-white p-4 rounded-lg grid place-items-center gap-2 cursor-pointer"
+          >
+            <picture>
+              <img
+                class="aspect-square w-20"
+                src="/images/rock.png"
+                alt="rock.png"
+                key="Rock"
+              />
+            </picture>
+            <p class="element__name">Rock</p>
+          </div>
+        </div>
+        <div class="gradiant rounded-xl p-1">
+          <div
+            id="user-input"
+            class="bg-white p-4 rounded-lg grid place-items-center gap-2 cursor-pointer"
+          >
+            <picture>
+              <img
+                class="aspect-square w-20"
+                src="/images/scissor.png"
+                alt="scissor.png"
+                key="Scissor"
+              />
+            </picture>
+            <p class="element__name">Scissor</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======= user selector E======= -->
+    </main>
+    <!-- js -->
+    <script src="./index.js"></script>
+  </body>
+</html>

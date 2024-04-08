@@ -553,3 +553,197 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.bg-cs-lightBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 147 255 / var(--tw-bg-opacity));
+}
+
+.bg-cs-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 252 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.font-PatrickHand {
+  font-family: "Patrick Hand", cursive;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.winner {
+  grid-column: span 2 / span 2;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.gradiant {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #FF71CD var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 113 205 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #5755FE var(--tw-gradient-to-position);
+}
+
+.selcet__title {
+  grid-column: span 3 / span 3;
+  display: inline-block;
+  -webkit-background-clip: text;
+          background-clip: text;
+  padding-left: 0.5rem;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #FF71CD var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 113 205 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #5755FE var(--tw-gradient-to-position);
+}
+
+.element__name {
+  display: inline-block;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: transparent;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #FF71CD var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 113 205 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #5755FE var(--tw-gradient-to-position);
+}
+
+.restart__btn {
+  margin-left: auto;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(87 85 254 / var(--tw-text-opacity));
+}
